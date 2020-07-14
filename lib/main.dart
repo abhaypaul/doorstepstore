@@ -143,7 +143,7 @@ class _MyHomePageState extends State<MyHomePage> {
    return Scaffold(
 
       body:  SafeArea(child: Stack(children: <Widget>[
-        WebviewScaffold(url: "https://doorstepestore.com/frontend/home/home",initialChild:
+        WebviewScaffold(url: "https://doorstepestore.com/frontend/home/home/categories",initialChild:
         Center(child: SizedBox(height: 30, width: 30,
             child: CircularProgressIndicator(
             )))
